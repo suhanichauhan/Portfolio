@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#e1e5f2] text-[#022b3a]">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-[#022b3a] p-6 fixed w-full top-0 left-0 z-50 shadow-lg">
+        <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-3xl font-bold">My Portfolio</a>
+            <ul class="flex space-x-6 text-white text-lg">
+                <li><a href="#about" class="hover:text-[#bfdbf7] transition-all duration-300">About Me</a></li>
+                <li><a href="#experience" class="hover:text-[#bfdbf7] transition-all duration-300">Experience</a></li>
+                <li><a href="#projects" class="hover:text-[#bfdbf7] transition-all duration-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-[#bfdbf7] transition-all duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="pt-32 pb-20 bg-[#1f7a8c] text-white">
+        <div class="max-w-screen-xl mx-auto px-6 flex flex-col md:flex-row items-center md:items-start gap-10">
+            <img src="images/your-image.png" alt="Your Image" class="w-72 h-72 md:w-80 md:h-80 rounded-full border-4 border-white shadow-xl mt-10 bg-[#E6E6FA]">
+            <div class="md:w-3/5 text-center md:text-left">
+                <h2 class="text-4xl font-extrabold mb-6 text-center">About Me</h2>
+                <p class="text-xl leading-relaxed text-justify">
+                    I’m <strong>Suhani Chauhan</strong>, a dedicated <strong>Software Engineer, Technical Content Writer, and Yoga Instructor</strong> passionate about technology, content creation, and holistic well-being.
+                
+                    With <strong>2 years of experience as a Software Engineer at IDEMIA SYSCOM</strong>, I developed scalable enterprise solutions. Currently, I am a <strong>Technical Content Writer at Eduyog</strong>, creating high-quality technical documentation. Additionally, I work as a <strong>Part-Time Online Yoga Instructor </strong>, guiding students in mindful practices and personalized wellness plans.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-[#bfdbf7] text-center">
+        <div class="max-w-screen-xl mx-auto px-6">
+            <h2 class="text-4xl font-extrabold mb-6">Experience</h2>
+            <ul class="space-y-6">
+                <li class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-semibold">Software Engineer (R&D) | IDEMIA SYSCOM, Noida</h3>
+                    <p class="text-xl mt-2">(Nov 2022 - Nov 2024) - Developed scalable software solutions for enterprise applications.</p>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-semibold">Technical Content Writer | Eduyog</h3>
+                    <p class="text-xl mt-2">(Dec 2024 - Present) - Creating high-quality technical content and documentation.</p>
+                </li>
+                <li class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+                    <h3 class="text-2xl font-semibold">Part Time Yoga Instructor | Online Classes </h3>
+                    <p class="text-xl mt-2">(Apr 2024 - Present) - Guiding students through mindful practices, and creating personalized wellness plans to enhance flexibility, strength, and mental well-being.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-[#f4f4f4] text-gray-900">
+        <div class="max-w-screen-xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold mb-10">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">Business Intelligence Dashboard</h3>
+                    <p class="text-lg mt-2 text-justify">
+                        Developed interactive dashboards using Power BI to monitor key performance indicators, analyze trends, and support data-driven decision-making. Designed business intelligence databases and maintained dashboards for real-time insights.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">Data Analysis & Reporting</h3>
+                    <p class="text-lg mt-2 text-justify">
+                        Extracted, transformed, and loaded data using SQL queries. Conducted data cleaning, coding, and visualization to prepare detailed reports, track business performance, and identify market trends.
+                    </p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">Process Optimization & Strategy</h3>
+                    <p class="text-lg mt-2 text-justify">
+                        Oversaw data systems and reporting frameworks, ensuring data integrity and accuracy. Interpreted complex datasets to provide actionable insights, optimize business strategies, and improve operational efficiency.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">Lowkot Advertisement & Marketing Private Limited</h3>
+                    <a href="https://www.lowkot.com" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">Abrahamic Economic and Cultural Development Forum (AECD Forum)</h3>
+                    <a href="https://www.aecdf.com" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold">Hrkot- Education and Recruitment</h3>
+                    <a href="https://www.hrkot.com" class="text-blue-600 font-semibold mt-4 inline-block">View Project</a>
+                </div>                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-[#114b5f] text-white">
+        <div class="max-w-screen-xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold mb-10">Education</h2>
+            <div class="flex flex-col md:flex-row justify-center gap-8">
+                <div class="bg-white text-[#1f7a8c] p-6 rounded-lg shadow-lg w-full md:w-1/3">
+                    <h3 class="text-2xl font-semibold">AKTU (DKNMIET)</h3>
+                    <p class="text-lg mt-2">B.Tech in Computer Science and Engineering</p>
+                    <p class="text-lg font-semibold mt-1">CGPA: 7.5</p>
+                </div>
+                <div class="bg-white text-[#1f7a8c] p-6 rounded-lg shadow-lg w-full md:w-1/3">
+                    <h3 class="text-2xl font-semibold">DDPS, Bijnor</h3>
+                    <p class="text-lg mt-2">CBSE | 12th Grade</p>
+                </div>
+                <div class="bg-white text-[#1f7a8c] p-6 rounded-lg shadow-lg w-full md:w-1/3">
+                    <h3 class="text-2xl font-semibold">DDPS, Bijnor</h3>
+                    <p class="text-lg mt-2">CBSE | 10th Grade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-[#e1e5f2] text-center">
+        <div class="max-w-screen-xl mx-auto px-6">
+            <h2 class="text-4xl font-extrabold mb-6">Contact Me</h2>
+            <a href="mailto:suhanichauhan201@gmail.com" class="bg-[#1f7a8c] text-white py-3 px-6 rounded-lg hover:bg-[#022b3a] transition-all duration-300">Email Me</a>
+            <p class="text-xl mt-4">Call me: <strong>+91 9958465482</strong></p>
+        </div>
+    </section>
+</body>
+</html>
